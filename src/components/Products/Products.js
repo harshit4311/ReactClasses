@@ -21,7 +21,6 @@ function Products({cart, increaseQuantity, decreaseQuantity}) {
   
     return (
       <div>
-          <div><Effect /></div>
             {
                 products.map(function (item, index) {
                   return (<ProductCard key={index}  product={item}  cart={cart} increaseQuantity={increaseQuantity} decreaseQuantity={decreaseQuantity}/>)
