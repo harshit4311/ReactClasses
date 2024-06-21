@@ -1,5 +1,4 @@
 import ProductCard from "../ProductCard/ProductCard";
-import Effect from "../Effect/Effect";
 import { useState, useEffect } from "react";
 import useWindowSize from "../../hooks/useWindowSize";
 function Products({cart, increaseQuantity, decreaseQuantity}) {
