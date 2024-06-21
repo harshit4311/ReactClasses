@@ -22,7 +22,7 @@ function Products({cart, increaseQuantity, decreaseQuantity}) {
       <div>
             {
                 products.map(function (item, index) {
-                  return (<ProductCard key={index}  product={item}  cart={cart} increaseQuantity={increaseQuantity} decreaseQuantity={decreaseQuantity}/>)
+                  return (<ProductCard key={index}  product={item} />)
                 })
             }
         </div>
