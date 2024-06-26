@@ -1,5 +1,5 @@
-import { act } from "react";
-import { createStore } from "react-redux";
+import { createStore } from "redux";
+import { omit } from "lodash";
 
 function cartReducer(state = {items: {}}, action) {
     switch(action.type) {
